@@ -6,6 +6,9 @@ var navBar = document.createElement ('nav')
 
 var navList = document.createElement ('ul')
     navList.setAttribute ('id' , 'navList')
+    navList.style.listStyle = 'none'
+    navList.style.display = 'flex'
+    navList.style.justifyContent = 'space-around'
     document.getElementById('nav').append (navList);
 
 var home = document.createElement ('li')
@@ -15,6 +18,7 @@ var home = document.createElement ('li')
 var anchor1 = document.createElement ('a')
     anchor1.textContent = 'HOME'
     anchor1.setAttribute ('id' , 'anchor1')
+    anchor1.style.textDecoration = 'none'
     document.getElementById('home').append (anchor1)
     document.getElementById('anchor1').href = '';
 
@@ -25,6 +29,7 @@ var about = document.createElement ('li')
 var anchor2 = document.createElement ('a')
     anchor2.textContent = 'ABOUT'
     anchor2.setAttribute ('id' , 'anchor2')
+    anchor2.style.textDecoration = 'none'
     document.getElementById('about').append (anchor2)
     document.getElementById('anchor2').href = '';
 
@@ -35,6 +40,7 @@ var contact = document.createElement ('li')
 var anchor3 = document.createElement ('a')
     anchor3.textContent = 'CONTACT US'
     anchor3.setAttribute ('id' , 'anchor3')
+    anchor3.style.textDecoration = 'none'
     document.getElementById('contact').append (anchor3)
     document.getElementById('anchor3').href = '';
 
