@@ -33,7 +33,7 @@ box.addEventListener('dblclick', doubleClick);
 function outOfSquare() {
    box.style.backgroundColor = 'orange'
 }
-box.addEventListener('mouseout', outOfSquare);
+window.addEventListener('wheel', outOfSquare);
 
 //keyboard
 
