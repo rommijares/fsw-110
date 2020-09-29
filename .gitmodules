@@ -1,0 +1,3 @@
+[submodule "week6/events_worksheet/week6/events_worksheet/event-workbook"]
+	path = week6/events_worksheet/week6/events_worksheet/event-workbook
+	url = https://github.com/VSchool/event-workbook.git
